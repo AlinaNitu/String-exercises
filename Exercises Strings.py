@@ -245,13 +245,5 @@ def mystr(a):
 	print(a.startswith('al'))
 
 
-def factorial(n):
-	if n == 1:
-		return 1
-	else:
-		res = n * factorial ( n - 1 )
-		print ( "rez intermed pentru ", n, " * factorial(", n - 1, "): ", res )
-
-		return res
 
 
